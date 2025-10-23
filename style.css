@@ -168,4 +168,6 @@ button:hover {
 .infobox .collage figure img {
   height: 1;
   border-radius: 15px;
+  width: 200px;
+  height: 165px;
 }
