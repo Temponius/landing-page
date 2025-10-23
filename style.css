@@ -1,1 +1,114 @@
-/* nothing here for now... */
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: #1f2937;
+  /* outline: 2px solid red; */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  box-sizing: border-box;
+  border: 0px;
+}
+
+#leftheaderlink {
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#leftheaderlink:hover {
+  color: #3882f6;
+}
+
+#mainheader {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.topbar {
+  background-color: black;
+  display: flex;
+  padding: 20px;
+}
+
+.herocollection {
+  display: flex;
+  margin: 20px;
+}
+
+.sidepart {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.topbar .toptopbar {
+  background-color: black;
+  display: flex;
+  flex: 1;
+  gap: 25px;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+.toptopbar p {
+  background-color: black;
+}
+
+.topbar h1 {
+  background-color: black;
+}
+
+.mainparagraph {
+  font-weight: 200;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.headerlink {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.headerlink:hover {
+  color: #3882f6;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
+
+#secondaryheader {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+#pallasmain {
+  height: 500px;
+  border-radius: 30px;
+}
