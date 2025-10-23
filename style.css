@@ -171,3 +171,29 @@ button:hover {
   width: 200px;
   height: 165px;
 }
+
+.quotesec {
+  padding-top: 65px;
+  width: 100%;
+  height: auto;
+  background-color: #e5e7eb;
+}
+
+.quotesec #quote p {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  padding: 60px;
+  font-style: italic;
+}
+
+.quotesec #quoteperson {
+  background-color: #e5e7eb;
+  font-size: 28px;
+  color: #1f2937;
+  font-weight: 300;
+  padding-bottom: 65px;
+  padding-right: 120px;
+  text-align: end;
+}
